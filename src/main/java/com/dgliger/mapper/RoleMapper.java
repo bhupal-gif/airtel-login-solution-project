@@ -37,5 +37,4 @@ public class RoleMapper {
                 .name(updateRoleRequest.getName())
                 .build();
     }
-
 }

@@ -19,7 +19,7 @@ import java.util.Set;
 @SuperBuilder(toBuilder = true)
 public class User extends AuditableEntity implements Serializable {
 
-    private static final long serialVersionUID = 5494511375812355981L;
+                    private static final long serialVersionUID = 5494511375812355981L;
     @Id
     private String id;
     private String userName;
